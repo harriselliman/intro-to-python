@@ -114,3 +114,8 @@ print(student2.gpa)'''
 
 from Question import Question
 
+question_prompts = [
+    "What colour are Oranges?\n(a) Green\n(b) Orange\n(c) White \n\nAnswer: ",
+    "What colour kit do Liverpool wear?\n(a) Red\n(b) Blue\n(c) Brown\n\nAnswer: ",
+    "What colour is the sky?\n(a) Yellow\n(b) Purple\n(c) Blue\n\nAnswer: "
+]
