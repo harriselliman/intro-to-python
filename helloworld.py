@@ -112,7 +112,7 @@ print(student2.gpa)'''
 
 # basic multiple choice quiz
 
-from Question import Question
+'''from Question import Question
 
 question_prompts = [
     "What colour are Oranges?\n(a) Green\n(b) Orange\n(c) White \n\nAnswer: ",
@@ -134,4 +134,15 @@ def run_test(questions):
             score += 1
     print("You got " + str(score) + "/" + str(len(questions)) + " correct.")
 
-run_test(questions)
+run_test(questions)'''
+
+
+# object functions
+
+from Student import Student
+
+student1 = Student("Jack", "Economics", 4.0)
+student2 = Student("Kevin", "Software Engineering", 1.2)
+
+print(student1.on_honor_roll())
+print(student2.on_honor_roll())
