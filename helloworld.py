@@ -95,6 +95,17 @@ html_file.close()'''
 
 # modules
 
-import useful_tools
+'''import useful_tools
 
-print(useful_tools.roll_dice(6))
+print(useful_tools.roll_dice(6))'''
+
+
+# classes & objects
+
+from Student import Student
+
+student1 = Student("Jack", "Economics", 4.0, False)
+student2 = Student("Kevin", "Software Engineering", "1.2", True)
+
+print(student1.name)
+print(student2.gpa)
