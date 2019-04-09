@@ -139,10 +139,17 @@ run_test(questions)'''
 
 # object functions
 
-from Student import Student
+'''from Student import Student
 
 student1 = Student("Jack", "Economics", 4.0)
 student2 = Student("Kevin", "Software Engineering", 1.2)
 
 print(student1.on_honor_roll())
-print(student2.on_honor_roll())
+print(student2.on_honor_roll())'''
+
+# inheritance
+
+from Chef import Chef
+
+myChef = Chef()
+myChef.make_special_dish()
