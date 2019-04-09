@@ -150,6 +150,11 @@ print(student2.on_honor_roll())'''
 # inheritance
 
 from Chef import Chef
+from BetterChef import BetterChef
 
 myChef = Chef()
 myChef.make_special_dish()
+
+myBetterChef = BetterChef()
+myBetterChef.make_special_dish()
+myBetterChef.make_burger()
