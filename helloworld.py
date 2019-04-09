@@ -1,6 +1,6 @@
 # basic calculator
 
-num1 = float(input("Enter first number: "))
+'''num1 = float(input("Enter first number: "))
 op = input("Enter operator: ")
 num2 = float(input("Enter another number: "))
 
@@ -13,4 +13,25 @@ elif op == "/":
 elif op == "*":
     print(num1 * num2)
 else:
-    print("Invalid operator")
+    print("Invalid operator")'''
+
+
+# basic guessing game
+
+secret_word = "elephant"
+guess = ""
+guess_count = 1
+guess_limit = 5
+out_of_guesses = False
+
+while guess != secret_word and not out_of_guesses:
+    if guess_count <= guess_limit:
+        guess = input("Enter guess: ")
+        guess_count += 1
+    else:
+        out_of_guesses = True
+
+if out_of_guesses:
+    print("Out of guesses, you lose.")
+else:
+    print("Correct, the secret word is " + secret_word)
