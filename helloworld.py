@@ -81,8 +81,14 @@ player_file.close()'''
 
 # writing files
 
-player_file = open("/Users/harriselliman/Desktop/CODE./PYTHON./intro-to-python/players.txt", "w")
+'''player_file = open("/Users/harriselliman/Desktop/CODE./PYTHON./intro-to-python/players.txt", "w")
 
 player_file.write("Alisson Becker - Goalkeeper")
 
-player_file.close()
+player_file.close()'''
+
+html_file = open("/Users/harriselliman/Desktop/CODE./PYTHON./intro-to-python/index.html", "w")
+
+html_file.write("<p>This is a HTML file</p>")
+
+html_file.close()
