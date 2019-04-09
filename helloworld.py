@@ -70,11 +70,12 @@ for player in player_file.readlines():
 
 player_file.close()'''
 
-# writing files
+# ammend files
 
-player_file = open("/Users/harriselliman/Desktop/CODE./PYTHON./intro-to-python/players.txt", "a")
+'''player_file = open("/Users/harriselliman/Desktop/CODE./PYTHON./intro-to-python/players.txt", "a")
 
 player_file.write("\nSadio Mane - Left Winger")
 player_file.write("\nFabinho - Defensive Midfielder")
 
-player_file.close()
+player_file.close()'''
+
