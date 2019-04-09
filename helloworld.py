@@ -58,7 +58,7 @@ print(translate(input("Enter a phrase: ")))'''
 
 # reading files
 
-'''player_file = open("players.txt", "r")
+'''player_file = open("/Users/harriselliman/Desktop/CODE./PYTHON./intro-to-python/players.txt", "r")
 
 print(player_file.readable())
 print(player_file.read())
@@ -72,8 +72,9 @@ player_file.close()'''
 
 # writing files
 
-player_file = open("players.txt", "a")
+player_file = open("/Users/harriselliman/Desktop/CODE./PYTHON./intro-to-python/players.txt", "a")
 
 player_file.write("\nSadio Mane - Left Winger")
+player_file.write("\nFabinho - Defensive Midfielder")
 
 player_file.close()
