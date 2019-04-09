@@ -58,14 +58,22 @@ print(translate(input("Enter a phrase: ")))'''
 
 # reading files
 
-player_file = open("players.txt", "r")
+'''player_file = open("players.txt", "r")
 
-'''print(player_file.readable())'''
-'''print(player_file.read())'''
-'''print(player_file.readline())'''
-'''print(player_file.readlines())'''
+print(player_file.readable())
+print(player_file.read())
+print(player_file.readline())
+print(player_file.readlines())
 
 for player in player_file.readlines():
     print(player)
+
+player_file.close()'''
+
+# writing files
+
+player_file = open("players.txt", "a")
+
+player_file.write("\nSadio Mane - Left Winger")
 
 player_file.close()
