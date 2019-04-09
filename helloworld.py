@@ -119,3 +119,9 @@ question_prompts = [
     "What colour kit do Liverpool wear?\n(a) Red\n(b) Blue\n(c) Brown\n\nAnswer: ",
     "What colour is the sky?\n(a) Yellow\n(b) Purple\n(c) Blue\n\nAnswer: "
 ]
+
+questions = [
+    Question(question_prompts[0], "b"),
+    Question(question_prompts[1], "a"),
+    Question(question_prompts[2], "c")
+]
