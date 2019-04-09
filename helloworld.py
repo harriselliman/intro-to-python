@@ -79,3 +79,10 @@ player_file.write("\nFabinho - Defensive Midfielder")
 
 player_file.close()'''
 
+# writing files
+
+player_file = open("/Users/harriselliman/Desktop/CODE./PYTHON./intro-to-python/players.txt", "w")
+
+player_file.write("Alisson Becker - Goalkeeper")
+
+player_file.close()
