@@ -18,7 +18,7 @@ else:
 
 # basic guessing game
 
-secret_word = "elephant"
+'''secret_word = "elephant"
 guess = ""
 guess_count = 1
 guess_limit = 5
@@ -34,4 +34,23 @@ while guess != secret_word and not out_of_guesses:
 if out_of_guesses:
     print("Out of guesses, you lose.")
 else:
-    print("Correct, the secret word is " + secret_word)
+    print("Correct, the secret word is " + secret_word)'''
+
+
+
+# build a basic translator
+
+def translate(phrase):
+    translation = ""
+    for letter in phrase:
+        if letter.lower() in "AEIOUaeiou":
+            if letter.isupper():
+                translation = translation + "V"
+            else:
+                translation = translation + "v"
+        else:
+            translation = translation + letter
+    return translation
+
+
+print(translate(input("Enter a phrase: ")))
