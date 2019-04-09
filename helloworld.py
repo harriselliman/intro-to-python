@@ -87,8 +87,14 @@ player_file.write("Alisson Becker - Goalkeeper")
 
 player_file.close()'''
 
-html_file = open("/Users/harriselliman/Desktop/CODE./PYTHON./intro-to-python/index.html", "w")
+'''html_file = open("/Users/harriselliman/Desktop/CODE./PYTHON./intro-to-python/index.html", "w")
 
 html_file.write("<p>This is a HTML file</p>")
 
-html_file.close()
+html_file.close()'''
+
+# modules
+
+import useful_tools
+
+print(useful_tools.roll_dice(6))
