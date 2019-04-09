@@ -40,7 +40,7 @@ else:
 
 # build a basic translator
 
-def translate(phrase):
+'''def translate(phrase):
     translation = ""
     for letter in phrase:
         if letter.lower() in "AEIOUaeiou":
@@ -53,4 +53,19 @@ def translate(phrase):
     return translation
 
 
-print(translate(input("Enter a phrase: ")))
+print(translate(input("Enter a phrase: ")))'''
+
+
+# reading files
+
+player_file = open("players.txt", "r")
+
+'''print(player_file.readable())'''
+'''print(player_file.read())'''
+'''print(player_file.readline())'''
+'''print(player_file.readlines())'''
+
+for player in player_file.readlines():
+    print(player)
+
+player_file.close()
