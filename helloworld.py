@@ -105,7 +105,7 @@ print(useful_tools.roll_dice(6))'''
 '''from Student import Student
 
 student1 = Student("Jack", "Economics", 4.0, False)
-student2 = Student("Kevin", "Software Engineering", "1.2", True)
+student2 = Student("Kevin", "Software Engineering", 1.2, True)
 
 print(student1.name)
 print(student2.gpa)'''
