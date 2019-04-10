@@ -41,7 +41,7 @@ else:
 
 instruction = ""
 
-while instruction != "quit":
+while True:
     instruction = input("> ").lower()
     if instruction == "help":
         print("""
