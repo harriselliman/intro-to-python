@@ -37,6 +37,25 @@ else:
     print("Correct, the secret word is " + secret_word)'''
 
 
+# basic car simulation game
+
+instruction = ""
+
+while instruction.lower() != "quit":
+    instruction = input("> ")
+    if instruction == "help":
+        print("""
+start - start the car
+stop - stop the car
+quit - exit
+        """)
+    elif instruction == "start":
+        print("Car started... Ready to go.")
+    elif instruction == "stop":
+        print("Car stopped.")
+    else:
+        print("I don't understand that...")
+
 
 # build a basic translator
 
@@ -149,7 +168,7 @@ print(student2.on_honor_roll())'''
 
 # inheritance
 
-from Chef import Chef
+'''from Chef import Chef
 from BetterChef import BetterChef
 
 myChef = Chef()
@@ -157,4 +176,4 @@ myChef.make_special_dish()
 
 myBetterChef = BetterChef()
 myBetterChef.make_special_dish()
-myBetterChef.make_burger()
+myBetterChef.make_burger()'''
