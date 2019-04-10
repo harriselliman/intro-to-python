@@ -53,6 +53,8 @@ quit - exit
         print("Car started... Ready to go.")
     elif instruction == "stop":
         print("Car stopped.")
+    elif instruction == "quit":
+        break
     else:
         print("I don't understand that...")
 
