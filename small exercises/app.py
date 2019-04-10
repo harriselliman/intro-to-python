@@ -41,8 +41,8 @@ else:
 
 instruction = ""
 
-while instruction.lower() != "quit":
-    instruction = input("> ")
+while instruction != "quit":
+    instruction = input("> ").lower()
     if instruction == "help":
         print("""
 start - start the car
