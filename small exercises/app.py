@@ -40,6 +40,7 @@ else:
 # basic car simulation game
 
 instruction = ""
+is_stopped = True
 
 while True:
     instruction = input("> ").lower()
@@ -50,9 +51,17 @@ stop - stop the car
 quit - exit
         """)
     elif instruction == "start":
-        print("Car started... Ready to go.")
+        if is_stopped:
+            print("Car started... Ready to go.")
+            is_stopped = False
+        else:
+            print("Car has already started, we driving baby.")
     elif instruction == "stop":
-        print("Car stopped.")
+        if not is_stopped:
+            print("Car stopped.")
+            is_stopped = True
+        else:
+            print("Car has already stopped.")
     elif instruction == "quit":
         break
     else:
