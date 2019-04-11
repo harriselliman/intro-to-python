@@ -13,7 +13,7 @@ for row in range(2, sheet.max_row +1):
 values = Reference(sheet,
 min_row=2,
 max_row=sheet.max_row,
-min_col=4
+min_col=4,
 max_col=4)
 
 chart = BarChart()
