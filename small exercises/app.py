@@ -39,7 +39,7 @@ else:
 
 # basic car simulation game
 
-instruction = ""
+'''instruction = ""
 is_stopped = True
 
 while True:
@@ -65,7 +65,7 @@ quit - exit
     elif instruction == "quit":
         break
     else:
-        print("I don't understand that...")
+        print("I don't understand that...")'''
 
 
 # build a basic translator
@@ -139,6 +139,19 @@ student2 = Student("Kevin", "Software Engineering", 1.2, True)
 
 print(student1.name)
 print(student2.gpa)'''
+
+# two dice roll simulation
+
+import random
+
+class Dice:
+    def roll(self):
+        first_dice = random.randint(1, 6)
+        second_dice = random.randint(1, 6)
+        return first_dice, second_dice
+
+dice = Dice()
+print(dice.roll())
 
 # basic multiple choice quiz
 
